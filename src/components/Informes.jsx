@@ -9,7 +9,13 @@ const Informes = () => {
   return (
     
     <>
-              <img className="md:0 md:mx-auto border-8 border-transparent" src="../public/img/logo.jpg"/>
+              <img className="md:0 md:mx-auto border-8 border-transparent" src="/img/logo.jpg"/>
+
+
+
+
+
+              
               <h2 className='font-black text-3xl text-center'>Listado de Ordenes de Compras</h2>
               
     <div className='p-10'>
