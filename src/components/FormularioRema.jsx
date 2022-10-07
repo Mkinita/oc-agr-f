@@ -99,6 +99,7 @@ const FormularioRema = () => {
         className="bg-white py-10 px-5 mb-10 lg:mb-5 shadow-md rounded-md"
         onSubmit={handleSubmit}
         >
+        <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
         <table>
             <thead>
                 <tr>
@@ -142,7 +143,7 @@ const FormularioRema = () => {
                         <div className="mb-5">
                             <label htmlFor="numeroOc" 
                             className="text-gray-700 uppercase font-bold"
-                            >OC</label>
+                            >Numero</label>
                             <input
                             id="numeroOc"
                             type="text"
@@ -223,6 +224,7 @@ const FormularioRema = () => {
                 </tr>
             </thead>
         </table>
+        </div>
 
         <div className=' m-0 content-center'>
             <input

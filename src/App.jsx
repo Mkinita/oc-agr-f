@@ -12,6 +12,8 @@ import AdministrarPacientes from './paginas/AdministrarPacientes'
 import EditarPerfil from './paginas/EditarPerfil'
 import CambiarPassword from './paginas/CambiarPassword'
 import AdministrarTermiando from './paginas/AdministrarTermiando'
+import Informe from './paginas/Informe'
+import Pintura from './paginas/Pintura'
 
 
 
@@ -46,6 +48,12 @@ function App() {
                 <Route path="detalle"element={<AdministrarTermiando/>} />
                 <Route path="cambiar-password"element={<CambiarPassword/>} />
               </Route>
+
+              <Route path="/admin">
+              <Route path="informe"element={<Informe/>} />
+              <Route path="pintura"element={<Pintura/>} />
+              </Route>
+
 
 
           </Routes>
