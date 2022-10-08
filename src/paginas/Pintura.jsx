@@ -1,4 +1,5 @@
 import ListaEmbalaje from "../components/ListaEmbalaje"
+import Footer from "../components/Footer"
 
 const Pintura = () => {
   return (
